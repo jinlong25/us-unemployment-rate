@@ -1,0 +1,126 @@
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+div.tooltip {   
+	position: absolute;           
+	text-align: center;           
+	width: 200px;                  
+	height: 180px;                 
+	padding: 2px;
+	font-family: 'sans-serif';
+	font-size: 16px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	border: 1px;      
+	border-radius: 4px;
+	pointer-events: none;
+}
+
+div.barplotTooltip {   
+	position: absolute;           
+	text-align: center;           
+	width: 150px;                  
+	height: 80px;                 
+	padding: 2px;
+	font-family: 'sans-serif';
+	font-size: 16px;
+	color: #fff;     
+	background: rgba(0, 0, 0, 0.5);
+	border: 1px;      
+	border-radius: 4px;
+	pointer-events: none;
+}
+
+div.svgInsetBarplot {
+	position: absolute;
+	margin: auto;        
+	width: 180px;                  
+	height: 120px;                 
+	padding: 0;
+	background: none;
+	pointer-events: none;
+}
+
+div.div-banner{
+	padding: 0;
+	margin: 0;
+}
+
+div.div-map{
+	padding: 0;
+	margin: 0;
+}
+
+div.div-barplot{
+	padding: 0;
+	margin: 0;
+}
+
+svg.insetBarplot {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+svg.banner {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+svg.map {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+svg.barplot {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.bar-label {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 9px;
+	fill: #fff;
+}
+
+.stateLabelShadow {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	fill-opacity: 0;
+	fill: #bbb;
+	font-size: 10px;
+}
+
+.stateLabel {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	fill: #fff;
+	font-size: 10px;
+}
+
+.title {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	fill: rgb(189,0,38);
+}
+
+.year {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	fill: rgb(253,141,60);
+}
+
+.currentYear {
+	stroke: #000;
+	stroke-width: 2;
+}
